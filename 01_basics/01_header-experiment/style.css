@@ -1,0 +1,94 @@
+/* Correct version - Earlier experiment version below */
+* {
+    margin: 0;
+    padding: 0;
+    color:blue;
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body {
+    width: 96%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    
+    /* padding: 0; - doesn't need as universally done */
+    /* margin-top: 16px; */
+    /* height: 0.5vh; */
+    /* width:96%; - if not write it take 100% by default */
+    /* color: blueviolet; - color not needed here */
+    /* flex-direction: row;- not needed flex is default in row */
+    /* align-self: center; */
+}
+
+header {
+    height: min-content;
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: blueviolet;
+}
+
+h1 {
+    margin: 24px;
+    padding: 16px;
+    border: 2px solid black;
+    font-family:cursive;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+
+
+
+/* This was I doing for the very first time while experimenting. */
+/* html {
+    margin-top: 16px;
+    padding: 0;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    margin:0;
+    padding:0;
+    color: blueviolet;
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:96%;
+}
+
+header {
+    margin:0;
+    padding: 0;
+    height: min-content;
+    width: 100%;
+    border: 2px solid a;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    color: black;
+    background-color: blueviolet;
+}
+
+h1 {
+    margin: 24px;
+    padding: 16px;
+    border: 2px solid black;
+    font-family:cursive;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+} */
