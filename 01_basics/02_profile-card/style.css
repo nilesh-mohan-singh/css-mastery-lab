@@ -1,0 +1,148 @@
+/* 1st time solution was in flexbox which was not the goal for this folder projects*/
+
+/* body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+
+
+
+
+/* This is the sample css written */
+
+/* body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+}
+
+p {
+  color: gray;
+  font-size: 14px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1st try */
+*{
+    margin:0;
+    padding:0;
+    align-content: center;
+}
+
+body{
+    height: 600px;
+    width: 600px;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.card{
+    height: 200px;
+    width: 400px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: blue;
+    background-color:antiquewhite;
+    align-content: center;
+}
+
+img {
+    size: 10px;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 24px;
+    align-content: center;
+    margin-left: 80px;
+    margin-bottom: 16px;
+}
+
+p{
+    margin-left:80px;
+}
+
+button {
+    margin-left: 80px;
+}
+
+
+
