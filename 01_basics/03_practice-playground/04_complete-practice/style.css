@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* box-sizing: content-box; */
+/* actual width = width + padding + border */
+
+.parent {
+  width: 500px;
+  height: 300px;
+  background: lightblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background: orange;
+}
+
+
+
+/* .parent {
+  width: 500px;
+  height: 300px;
+  padding: 40px;
+  background: lightblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background: orange;
+} */
+
+
+
+/* .parent {
+  width: 500px;
+  height: 300px;
+  padding: 40px;
+  border: 10px solid black;
+  background: lightblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  background: orange;
+} */
+
+
+
+
+/* .parent {
+  width: 500px;
+  height: 300px;
+  background: lightblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  margin: 40px;
+  background: orange;
+} */
+
+
+
+/* .parent {
+  background: lightblue;
+}
+
+.child {
+  height: 100px;
+  margin-top: 100px;
+  background: orange;
+} */
+
+
+
+
+
+/* .parent {
+  width: 300px;
+  padding: 40px;
+  border: 10px solid black;
+  background: lightblue;
+  box-sizing: content-box;
+} */
+
+
+
+
+
+
+
+/* .parent {
+  width: 300px;
+  padding: 40px;
+  border: 10px solid black;
+  background: lightblue;
+  box-sizing: border-box;
+} */
+
+
+
+/* .parent {
+  width: 300px;
+  background: lightblue;
+}
+
+.child {
+  background: orange;
+} */
+
+
+
+
+
+
+
+
+/* .parent {
+  width: 300px;
+  height: 150px;
+  overflow: visible;
+  background: lightblue;
+} */
+
+
+
+
+
+
+/* .parent {
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  background: lightblue;
+} */
+
+
+
+
+
+
+
+/* .parent {
+  width: 300px;
+  height: 150px;
+  overflow: auto;
+  background: lightblue;
+} */
+
+
+
+/* .parent {
+  min-height: 300px;
+  background: lightblue;
+} */
+
+
+
+/* .parent {
+  width: 100%;
+  max-width: 500px;
+  background: lightblue;
+} */
+
+
+
+/* .child {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background: orange;
+} */
+
+
+
+
+
+/* .child {
+  display: inline;
+  width: 200px;
+  height: 100px;
+  background: orange;
+} */
+
+
+
+
+
+
+
+/* .child {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  background: orange;
+} */
+
+
+
+
+
+
+
+
+/* .parent {
+  width: 500px;
+  background: lightblue;
+}
+
+.child {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  background: orange;
+} */
+
+
+
+
+/* .parent {
+  height: 300px;
+  display: flex;
+  background: lightblue;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background: orange;
+} */
+
+
+
+
+
+
+/* .parent {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background: lightblue;
+} */
+
+
+
+
+
+
+
+/* .parent {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+} */
+
+
+
+
+
+
+/* .parent {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background: lightblue;
+} */
+
+
+
+
+/* 
+.child {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background: orange;
+} */
+
+
+
+
+/* 
+.child {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: orange;
+} */
+
+
+
+
+
+/* .parent {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background: lightblue;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: orange;
+} */
+
+
+
+
+
+/* .parent {
+  background: lightblue;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: orange;
+} */
+
+
+
+
+
+/* .parent {
+  position: relative;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.child1 {
+  background: red;
+  z-index: 1;
+}
+
+.child2 {
+  background: blue;
+  left: 50px;
+  top: 50px;
+  z-index: 2;
+} */
+
+
+
+
+/* .parent {
+  width: auto;
+  background: lightblue;
+} */
+
+
+
+
+/* .parent {
+  height: auto;
+  background: lightblue;
+} */
+
+
+
+
+/* .child {
+  width: 200px;
+  margin: auto;
+  background: orange;
+} */
+
+
+
+
+
+/* .parent {
+  color: red;
+}
+
+.child {
+  color: inherit;
+} */
+
+
+
+
+/* .child {
+  color: initial;
+} */
+
+
+
+
+
+
+/* .child {
+  color: unset;
+} */
+
+
+
