@@ -7,7 +7,12 @@
 /* box-sizing: content-box; */
 /* actual width = width + padding + border */
 
-.parent {
+/* box-sizing: border-box; */
+/* actual width =  */
+
+
+
+/* .parent {
   width: 500px;
   height: 300px;
   background: lightblue;
@@ -17,10 +22,12 @@
   width: 200px;
   height: 100px;
   background: orange;
-}
+} */
 
 
 
+
+/* Added - Padding to parent */
 /* .parent {
   width: 500px;
   height: 300px;
@@ -36,6 +43,8 @@
 
 
 
+
+/* Added - Border to parent */
 /* .parent {
   width: 500px;
   height: 300px;
@@ -53,6 +62,7 @@
 
 
 
+/* Added Margin to child & removed padding & border from parent */
 /* .parent {
   width: 500px;
   height: 300px;
@@ -81,7 +91,7 @@
 
 
 
-
+/* box-sizing - content-box; */
 /* .parent {
   width: 300px;
   padding: 40px;
@@ -95,7 +105,7 @@
 
 
 
-
+/* box-sizing: border-box; */
 /* .parent {
   width: 300px;
   padding: 40px;
@@ -118,20 +128,13 @@
 
 
 
-
-
-
-
+/* Started observing overflow property */
 /* .parent {
   width: 300px;
   height: 150px;
   overflow: visible;
   background: lightblue;
 } */
-
-
-
-
 
 
 /* .parent {
@@ -142,18 +145,13 @@
 } */
 
 
-
-
-
-
-
-/* .parent {
+/* 
+.parent {
   width: 300px;
   height: 150px;
   overflow: auto;
   background: lightblue;
 } */
-
 
 
 /* .parent {
@@ -163,12 +161,14 @@
 
 
 
+
+
+/* started relative units */
 /* .parent {
   width: 100%;
   max-width: 500px;
   background: lightblue;
 } */
-
 
 
 /* .child {
@@ -179,20 +179,12 @@
 } */
 
 
-
-
-
 /* .child {
   display: inline;
   width: 200px;
   height: 100px;
   background: orange;
 } */
-
-
-
-
-
 
 
 /* .child {
@@ -223,8 +215,8 @@
 
 
 
-
-/* .parent {
+/* Flex is starting from here */
+.parent {
   height: 300px;
   display: flex;
   background: lightblue;
@@ -234,7 +226,7 @@
   width: 100px;
   height: 100px;
   background: orange;
-} */
+}
 
 
 
